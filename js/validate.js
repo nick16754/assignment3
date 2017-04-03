@@ -1,3 +1,4 @@
+/*Author: Nick Taglianetti*/
 function validateName() {
     var firstName = document.forms["pgh-form"]["first"].value;
     var lastName = document.forms["pgh-form"]["last"].value;

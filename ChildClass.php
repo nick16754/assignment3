@@ -1,6 +1,6 @@
 <?php
 	// this file will extend ParentClass.php
-
+	/*Author: Nick Taglianetti*/
 	class ChildClass extends ParentClass {
 
 		function __construct($firstName, $lastName, $pittsburghName) {

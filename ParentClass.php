@@ -1,6 +1,6 @@
 <?php
 	// This is the file for the parent class
-
+	/*Author: Nick Taglianetti*/
 	class ParentClass {
 		protected $firstName;
 		protected $lastName;

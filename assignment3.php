@@ -22,7 +22,7 @@
 			<input type="text" name="first" size="50"><br>
 			Last Name:<br>
 			<input type="text" name="last" size="50"><br>
-			<input type="submit" value="Pittsburgh-ify My Name!!!" name="Submit">
+			<input type="submit" value="Pittsburghify My Name!!!" name="Submit">
 		</form>
 	</div>
 	<?php

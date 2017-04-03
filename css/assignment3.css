@@ -1,6 +1,12 @@
-/*styles for assignment 3*/
+/*styles for assignment 3
+Author: Nick Taglianetti*/
 body {
-  color: #5a5a5a;
+  background-color: #1c2957;
+  font-family: monospace;
+  color: #cdb87d;
+  width: 600px;
+  margin: 150px auto 0;
+  height: 300px;
 }
 
 .flash {
@@ -17,8 +23,16 @@ body {
     to {color: black;}
 }
 
+.Pittsburghify {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .Pittsburghify>h2:hover {
-  font-size: 200%;
-  font-weight: bolder;
+  font-style: italic;
   color: #FFB612;
+}
+
+footer {
+  margin-top: 175px;
 }

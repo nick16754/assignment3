@@ -35,4 +35,9 @@
 		public function getPghName() {
 			return $this->pittsburghName;
 		}
+
+		public function __toString() {
+			$fullName = $this->getFirstName() . " \"" . $this->getPghName() . "\" " . $this->getLastName();
+			return $fullName;
+		}
 	}

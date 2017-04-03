@@ -28,10 +28,10 @@
 	<?php
 		}
 		else {
-			//echo "<h2 class="flash">Your Pittsburghese Name is:<H2>";
+			echo "<h1 class=\"flash\">Your Pittsburghese Name is:</h1>";
 			$PghName = new ChildClass($_POST['first'], $_POST['last'], "");
 			$PghName->setRandomPghName();
-			echo $PghName;
+			echo "<h2>".$PghName."</h2>";
 		}
 	?>
 	<footer>

@@ -17,7 +17,7 @@
 			if (null == isset($_POST['Submit'])) {
 		?>
 		<h2>What is Your Pittsburghese Name?</h2>
-		<form name="pgh-form" onsubmit="validateName()" method="post">
+		<form name="pgh-form" onsubmit="return validateName()" method="post">
 			First Name:<br>
 			<input type="text" name="first" size="50"><br>
 			Last Name:<br>
